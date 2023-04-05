@@ -32,13 +32,13 @@ function dividir()
     document.getElementById( "resultado2" ).innerHTML = parseFloat(numero3) / parseFloat(numero4) ;
 }
 
-document.getElementById("botao-somar").addEventListener("click" , somar);
+document.getElementById("botao-somar").addEventListener("click" , multiplicar);
 
-function somar()
+function multiplicar()
 {
-    let numero1 = document.getElementById("numero1").value;
-    let numero2 = document.getElementById("numero2"). value;
-    document.getElementById( "resultado1" ).innerHTML = parseFloat(numero1) + parseFloat(numero2) ;
+    let numero5 = document.getElementById("numero5").value;
+    let numero6 = document.getElementById("numero6"). value;
+    document.getElementById( "resultado3" ).innerHTML = parseFloat(numero5) * parseFloat(numero6) ;
 }
 
 
