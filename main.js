@@ -14,3 +14,10 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
+document.getElementById("botao-somar", somar);
+function somar()
+{
+    let numero1 = document.getElementById("numero1").volue;
+    let numero2 = document.getElementById("numero2"). volue;
+}
+
