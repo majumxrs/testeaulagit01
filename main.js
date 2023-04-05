@@ -27,8 +27,8 @@ function somar()
 document.getElementById("botao-dividir").addEventListener("click" , dividir);
 function dividir()
 {
-    let numero1 = document.getElementById("numero3").value;
-    let numero2 = document.getElementById("numero4"). value;
+    let numero3 = document.getElementById("numero3").value;
+    let numero4 = document.getElementById("numero4"). value;
     document.getElementById( "resultado2" ).innerHTML = parseFloat(numero3) / parseFloat(numero4) ;
 }
 
