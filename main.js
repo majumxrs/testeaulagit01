@@ -17,7 +17,8 @@ function exibenome()
 document.getElementById("botao-somar", somar);
 function somar()
 {
-    let numero1 = document.getElementById("numero1").volue;
-    let numero2 = document.getElementById("numero2"). volue;
+    let numero1 = document.getElementById("numero1").value;
+    let numero2 = document.getElementById("numero2"). value;
+    document.getElementById( "resultado1" ).innerHTML = numero1+numero2;
 }
 
