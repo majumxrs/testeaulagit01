@@ -38,7 +38,7 @@ function multiplicar()
 {
     let numero5 = document.getElementById("numero5").value;
     let numero6 = document.getElementById("numero6"). value;
-    document.getElementById( "resultado2" ).innerHTML = parseFloat(numero5) * parseFloat(numero6) ;
+    document.getElementById( "resultado3" ).innerHTML = parseFloat(numero5) * parseFloat(numero6) ;
 }
 
 
