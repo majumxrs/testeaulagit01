@@ -38,7 +38,7 @@ function multiplicar()
 {
     let numero5 = document.getElementById("numero5").value;
     let numero6 = document.getElementById("numero6"). value;
-    document.getElementById( "resultado3" ).innerHTML = parseFloat(numero5) * parseFloat(numero6) ;
+    document.getElementById( "resultado2" ).innerHTML = parseFloat(numero5) * parseFloat(numero6) ;
 }
 
 
@@ -51,6 +51,6 @@ function somar()
 {
     let numero7 = document.getElementById("numero7").value;
     let numero8 = document.getElementById("numero8"). value;
-    document.getElementById( "resultado3" ).innerHTML = parseFloat(numero7) + parseFloat(numero8) ;
+    document.getElementById( "resultado4" ).innerHTML = parseFloat(numero7) + parseFloat(numero8) ;
 }
 
