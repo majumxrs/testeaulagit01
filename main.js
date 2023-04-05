@@ -45,9 +45,9 @@ function multiplicar()
 
 
 
-document.getElementById("botao-subtrair").addEventListener("click" , somar);
+document.getElementById("botao-subtrair").addEventListener("click" , subtrair);
 
-function somar()
+function subtrair()
 {
     let numero7 = document.getElementById("numero7").value;
     let numero8 = document.getElementById("numero8"). value;
