@@ -48,6 +48,6 @@ function subtrair()
 {
     let numero7 = document.getElementById("numero7").value;
     let numero8 = document.getElementById("numero8").value;
-    document.getElementById( "resultado4" ).innerHTML = parseFloat(numero7) + parseFloat(numero8) ;
+    document.getElementById( "resultado4" ).innerHTML = parseFloat(numero7) - parseFloat(numero8) ;
 }
 
